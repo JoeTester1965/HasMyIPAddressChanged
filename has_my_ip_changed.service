@@ -1,0 +1,14 @@
+[Unit]
+Description=Has my IP address changed
+After=network.target
+
+[Service]
+ExecStart=/root/has_my_ip_changed.sh
+WorkingDirectory=/root/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+
+[Install]
+WantedBy=default.target

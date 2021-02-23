@@ -12,8 +12,8 @@ To install on Debian based platforms:
 
 : sudo systemctl start has_my_ip_changed.service
 
-To test if working, see if /tmp/my_last_ip_address exists after a minute or so
+To test if working, see if /tmp/my_last_ip_address exists after a minute or so.
 
-When IP address changes you will see something like this in syslog
+When IP address changes you will see something like this in syslog:
 
 Feb 23 14:44:50 ubuntu has_my_ip_changed.sh[6209]: IP address changed from a.b.c.d to e.f.g.h
